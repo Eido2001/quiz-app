@@ -1,0 +1,144 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:beige;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav h1 {
+    font-size: 1.5em;
+    color: white;
+
+}
+
+
+.nav-contents{
+    display: flex;
+    justify-content:space-around;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    transition: all .2s ease-in-out;
+}
+
+.nav a:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.container {
+    background-color: #fff;
+    width: 50%;
+    height:fit-content;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 38, 65, 0.1);
+
+}
+
+.container h1 {
+    margin-bottom: 1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.container h2{
+    margin-bottom: 1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.code-input{
+    padding: 0.4em;
+    border-radius: 10px;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.answer-input{
+    padding: 0.4em;
+    border-radius: 10px;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.submit{
+    text-decoration: none;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: .9em;
+    background-color:blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.container h4{
+    color: red;
+}
+
+.disapear{
+    display: none;
+}
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: .9em;
+    background-color:blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.disabled-btn {
+    background-color: gray;
+    pointer-events: none;
+}
+
+.active-btn{
+    background-color:blueviolet;
+    pointer-events:all;
+}
+
+.second-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-counter{
+    font-size: .8em;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.questions-number{
+    font-size: .8em;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
